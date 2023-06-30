@@ -10,11 +10,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 auto;
 }
-#main {
+main {
   position: relative;
   top: 8%;
 }
-#main .container {
+main .container {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -23,11 +23,11 @@ body {
   justify-content: center;
   align-items: center;
 }
-#main .txt-box {
+main .txt-box {
   display: flex;
   flex-direction: row;
 }
-#main .txt-box div {
+main .txt-box div {
   min-width: 54px;
   height: 36px;
   background-color: #eee;
@@ -37,4 +37,8 @@ body {
   padding: 0 16px;
   line-height: 36px;
   cursor: pointer;
+}
+main .txt-box div a {
+  text-decoration: none;
+  color: #000;
 }
