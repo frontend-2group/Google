@@ -2,3 +2,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+.footer2 {
+  height: 7vh;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.footer2A {
+  font-size: 14px;
+  padding: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+footer > div > div > a:hover {
+  text-decoration: underline;
+}
