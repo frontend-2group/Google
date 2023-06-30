@@ -2,6 +2,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .header2 > ul {
   display: flex;
   justify-content: end;
@@ -34,4 +35,24 @@
 }
 .header2img {
   height: 30px;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+}
+header > #header_left {
+  margin: 0 15px;
+}
+header > #header_left > a {
+  color: #bdc1c6;
+  margin: 0 5px;
+}
+header > #header_left > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #bdc1c6;
 }
