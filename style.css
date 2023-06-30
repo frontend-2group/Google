@@ -3,10 +3,33 @@
   box-sizing: border-box;
 }
 
+
 .footer1{
   height: 7vh;
   background-color: #f2f2f2;;
   padding: 15px 30px;
   color:#70757a;
   border-bottom: 1px solid #dadce0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+}
+header > #header_left {
+  margin: 0 15px;
+}
+header > #header_left > a {
+  color: #bdc1c6;
+  margin: 0 5px;
+}
+header > #header_left > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #bdc1c6;
+
 }
