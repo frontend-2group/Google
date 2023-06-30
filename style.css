@@ -2,3 +2,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.footer1{
+  height: 7vh;
+  background-color: #f2f2f2;;
+  padding: 15px 30px;
+  color:#70757a;
+  border-bottom: 1px solid #dadce0;
+}
