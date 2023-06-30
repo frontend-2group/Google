@@ -3,6 +3,13 @@
   box-sizing: border-box;
 }
 
+header{
+  height: 8vh;
+}
+main{
+  height: 78vh;
+}
+
 .header2 > ul {
   display: flex;
   justify-content: end;
@@ -29,10 +36,54 @@
   background-color: rgb(178, 176, 176);
   height: 30px;
   width: 30px;
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+main > div{
+  text-align: center;
+}
+.search{
+  width:35vw;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 30px;
+  margin: 0px auto;
+  position: relative;
+}
+input{
+  width: 80%;
+  height: 100%;
+  border: 0px;
+  outline: none;
+}
+.search_icon{
+  top:9px;
+  left:10px;
+  position: absolute;
+  
+}
+.keyboard{
+  top:8px;
+  right:105px;
+  position: absolute;
+}
+.microphone{
+  top:8px;
+  right:65px;
+  position: absolute;
+}
+.camera{
+  top:8px;
+  right:20px;
+  position: absolute;
+}
+footer{
+  height: 14vh;
+}
+
 .header2img {
   height: 30px;
 }
@@ -56,3 +107,4 @@ header > #header_left > a:hover {
   text-decoration: underline;
   text-decoration-color: #bdc1c6;
 }
+
